@@ -37,3 +37,29 @@ body {
   bottom: 0;
   font-size: 20px;
 }
+
+.result {
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+.result h1{
+  font-size: 50px;
+}
+
+.correct{
+  color: green;
+}
+
+.wrong{
+  color: red;
+}
+
+.play{
+  color: white;
+  background-color: rebeccapurple;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+}
