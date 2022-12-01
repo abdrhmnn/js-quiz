@@ -40,14 +40,12 @@ const play = document.querySelector(".play");
 let qIndex = 0;
 let correctCount = 0;
 let wrongCount = 0;
-let total = 0;
 let selectedAnswer;
 
 const playAgain = () => {
 	qIndex = 0;
 	correctCount = 0;
 	wrongCount = 0;
-	total = 0;
 	showQuestion(qIndex);
 };
 
